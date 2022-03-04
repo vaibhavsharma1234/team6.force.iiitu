@@ -202,6 +202,7 @@ body {
 
     .display_mob_nav{
         display: block;
+	    position: absolute;
     }
 
     .text_container h1{
