@@ -1292,16 +1292,16 @@ span {
     .mango {
         display: flex;
         position: absolute;
-        top: 150px;
-        right : 25px;
-        left: 800px;
+        top: 25%;
+        right : 2%;
+        left: 60%;
     }
 
     .apple {
         font-size: 40px;
-        top: 50px;
+        top: 7%;
         position: absolute;
-        right: 250px;
+        right: 12%;
     }
   
   .feature {
