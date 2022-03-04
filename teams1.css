@@ -331,6 +331,11 @@ section{
         width: 70vw;  
         color: #2f2f33;  
     }
+	 .hero{
+        background: linear-gradient(rgba(29, 32, 38, 0.8), rgba(29, 32, 38, 0.95)),
+    url("t1.jpg") center center no-repeat;
+		 height: 40vh;
+    }
     .nav__item {
         margin-bottom: 4rem;
         
