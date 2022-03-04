@@ -304,6 +304,11 @@
         height: 4rem;
         justify-content: end;
     }
+	.hero{
+        background: linear-gradient( rgba(29, 32, 38, 0.95),rgba(99, 102, 114, 63%) ),
+    url("team656.png") left center no-repeat;
+       
+    }
     .navbar_right{
         display: none;
         flex-direction: column;
