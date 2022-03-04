@@ -929,9 +929,16 @@ body {
          
          
      }
-     .blog-slider__img{
-         width: 50%;
+     
+	   .blog-slider__img{
+         width: 90%;
      }
+      .blog-slider{
+          width: 50%;
+      }
+      .yellow{
+          padding-left: 28%;
+      }
      
   }
   @media screen  and (max-width: 1086px){
