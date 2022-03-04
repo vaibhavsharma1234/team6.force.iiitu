@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.css"
+    integrity="sha512-+S5HQ2Ix/L84uhBLMimQiJlFjqR/Unnord77MEDNpWtK99i2Tk212EPb3/ahEjgaPRBKkKtTzMHIdO2HQXT3dQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/4c2d66d69d.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <header>
+        <div class="hero header">
+        
+            <div class="navbar">
+              <nav class="nav">
+        
+                <!-- <img class="nav__logo" src="images/icons/kajalfrp.svg" alt="kajalfrp"> -->
+        
+                <div class="open_nav_icon" onclick="toogle_nav()">
+                  <span class="nav_menu_icon"></span>
+                  <span class="nav_menu_icon"></span>
+                  <span class="nav_menu_icon"></span>
+                </div>
+                <div class="navbar_right nav__links">
+                  <div class="nav__item"><a class="nav__link" href="index.html">Home</a></div>
+                  <div class="nav__item"><a class="nav__link active" href="events.html">Events</a></div>
+                  <div class="nav__item"><a class="nav__link" href="teams.html">Teams</a></div>
+                  <div class="nav__item"><a class="nav__link" href="achievements.html">Achievements</a></div>
+                  <div class="nav__item"><a class="nav__link" href="codeofconduct.html">Code of Conduct</a></div>
+                  
+                </div>
+        
+                <div class="navbar_backdrop" onclick="toogle_nav()"></div>
+              </nav>
+            </div>
+            
+        
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-8 text_container_full">
+                  <div class="text_container">
+                    <!-- <h1> FORCE</h1> -->
+                    <!-- <p class="">FORUM FOR COMPUTER ENGINEER</p> -->
+                    <!-- <p class="psr_display_2 green"> <b class="psr_text_400 typewrite" data-period="2000"
+                        data-type='[" Forum For Computer Engineer" ]'><span class="wrap"></span></b></p> -->
+                    <!-- <a class="psr_btn psr_btn_trans psr_btn_lg psr_btn_rounded btn--scroll-to" href="">Contact Now</a> -->
+                    <div class="btn--scroll-to"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        
+    </header>
+    <section class="body1">
+        <div class="container4">
+            <div class="mainDiv">
+                <h2 class="nav__item wwd">EVENTS</h2>
+            </div>
+            <div class="box" style="--clr:#000;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Events</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#fc5f9b;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Workshops</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#a362ea;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Carrer guidance sessions</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#0ed095;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="earth-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Resume reviews</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#00bfff;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Coding Events</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="--clr:#ffa07a;">
+                <div class="content">
+                    <div class="icon">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h3>Hackathons</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="body4">
+        <div class="FirstDiv">
+            <div id="First">
+                <h2 class="yellow" style="
+                    padding-left: 39%;
+                    padding-bottom: 30px;
+                ">Current Events</h2>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+    
+                                <img src="e1.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">1 March 2022 </span>
+                                <div class="blog-slider__title">Resume Building</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi? </div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="e2.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">17 February 2022</span>
+                                <div class="blog-slider__title">UI/UX Designing</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi?</div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+    
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="e3.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">17 February 2022 </span>
+                                <div class="blog-slider__title">Web Developnment</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi?</div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+    
+            <div id="Second">
+                <h2 class="yellow" style="
+                padding-left: 39%;
+                padding-bottom: 30px;
+            ">Upcoming Events</h2>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+    
+                                <img src="ue1.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">9 October 2022</span>
+                                <div class="blog-slider__title">Workshop Flutter</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi? </div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="ue2.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">15 March 2022</span>
+                                <div class="blog-slider__title">Workshop on C++</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi?</div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="ue3.png"
+                                    alt="">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">18 September 2022</span>
+                                <div class="blog-slider__title">Workshop on Resume Building</div>
+                                <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Recusandae
+                                    voluptate repellendus magni illo ea animi?</div>
+                                <a href="#" class="blog-slider__button">READ MORE</a>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="blog-slider__pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Java Script -->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.js"
+            integrity="sha512-4w/aaXboO6KY1E/dqYwfq09sZnM+XDIcWvmHhfxvMQ+qwK84kxgWtNkAqbFNMLYd6EYA3nSgxTSyif/D3vlVMg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var swiper = new Swiper('.blog-slider', {
+                spaceBetween: 30,
+                effect: 'fade',
+                loop: true,
+                mousewheel: {
+                    invert: false,
+                },
+                // autoHeight: true,
+                pagination: {
+                    el: '.blog-slider__pagination',
+                    clickable: true,
+                }
+            });
+        </script>
+    </section>
+    <section>
+        <section class="pink">Thank You For Visiting</section>
+        <footer class="footer-distributed">
+        
+                    <div class="footer-left">
+        
+                        <h3><span>FORCE</span></h3>
+        
+                        <p class="footer-links">
+                            <a href="#" class="link-1"></a>
+                            
+                            <a href="/navbar/index.html">Home</a>
+                        
+                            <a href="/navbar/events.html">Events</a>
+                            <a href="/navbar/teams.html">Teams</a>
+                        
+                           
+                            
+                            <a href="/navbar/achievements.html">Achievements</a>
+                            <a href="/navbar/codeofconduct.html">Code of Conduct </a>
+                            
+                        
+                        </p>
+        
+                        <p class="footer-company-name">FORCE @ IIITU  </p>
+                    </div>
+        
+                    <div class="footer-center">
+        
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p><span>Vill. Saloh, Teh. Haroli</span> , Distt. Una Himachal Pradesh 177209
+                                India</p>
+                        </div>
+        
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>01125532553</p>
+                        </div>
+        
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="mailto:clubforce@iiitu.ac.in">clubforce@iiitu.ac.in</a></p>
+                        </div>
+        
+                    </div>
+        
+                    <div class="footer-right">
+        
+                        <p class="footer-company-about">
+                            <span>About Force</span>
+                            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+                        </p>
+        
+                        <div class="footer-icons">
+        
+                            <a href="https://www.facebook.com/iiituforce/" ><i class="fa fa-facebook"></i></a>
+                            
+                            <a href="https://www.instagram.com/force.iiitu/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/posts/force-iiitu_iiitiansnetwork-skillabhyudaya-iiitu-activity-6903595599904804864-tLuA"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-github"></i></a>
+        
+                        </div>
+        
+                    </div>
+        
+                </footer>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
