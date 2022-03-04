@@ -937,7 +937,8 @@ body {
           width: 50%;
       }
       .yellow{
-          padding-left: 28%;
+         
+	      text-align: center;
       }
      
   }
