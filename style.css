@@ -232,7 +232,7 @@ body {
 
     .display_mob_nav{
         display: block;
-        position: relative;
+        position: absolute;
 
     }
 
