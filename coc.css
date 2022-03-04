@@ -285,6 +285,11 @@
         height: 4rem;
         justify-content: end;
     }
+	.hero{
+        height: 40vh;
+        background: linear-gradient(rgba(29, 32, 38, 0.8), rgba(29, 32, 38, 0.95)),
+        url("coc1111.jpg") center center no-repeat;
+    }
     .navbar_right{
         display: none;
         flex-direction: column;
